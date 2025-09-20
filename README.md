@@ -115,3 +115,8 @@ id,label
 - Vòng lặp **train()** với Adam + CrossEntropy, 5 epoch.
 - Hai cách **inference** và ghi vào `submission.csv`.
 
+## Kết quả
+Model1 - TinyVGG: accuracy = 0.55970
+Model2 - EfficientNet-B0 (trainable 2 layer cuối): accuracy = 0.86900
+Model3 - EfficientNet-B0 (trainable toàn bộ layer): accuracy = 0.93350 (Highest)
+
